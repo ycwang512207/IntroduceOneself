@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFDE"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFED97"
+        android:gravity="center"
+        android:text="左滑滑右滑滑、長按短按、拖曳圖片\n皆有互動呦✧◝(⁰▿⁰)◜✧"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/sparrow1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFE153"
+            android:text="Play"
+            android:textColor="@color/black"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFE153"
+            android:text="stop"
+            android:textColor="@color/black"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFE153"
+            android:text="Reset"
+            android:textColor="@color/black"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#E69966"
+            android:drawableTop="@drawable/aboutme"
+            android:text="關於我" />
+
+        <Button
+            android:id="@+id/btnGraduate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#E69966"
+            android:drawableTop="@drawable/graduate"
+            android:text="未來規劃" />
+
+        <Button
+            android:id="@+id/btnCoding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#E69966"
+            android:drawableTop="@drawable/coding"
+            android:text="程式語言" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#E69966"
+            android:drawableTop="@drawable/game"
+            android:text="興趣" />
+
+        <Button
+            android:id="@+id/btnSing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#E69966"
+            android:drawableTop="@drawable/sing"
+            android:text="唱歌" />
+
+        <Button
+            android:id="@+id/btnVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#E69966"
+            android:drawableTop="@drawable/video"
+            android:text="追劇 &amp; 實況" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFE153"
+        android:gravity="center"
+        android:text="左滑右滑、長按、短按，請在此進行( ～'ω')～"
+        android:textColor="@color/black" />
+
+</LinearLayout>
