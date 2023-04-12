@@ -34,30 +34,34 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#FFE153"
+            android:backgroundTint="#FFE153"
             android:text="Play"
             android:textColor="@color/black"
-            android:visibility="gone" />
+            android:visibility="gone"
+            android:drawableTop="@drawable/baseline_play_circle_24"/>
 
         <Button
             android:id="@+id/btnPause"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#FFE153"
+            android:backgroundTint="#FFE153"
             android:text="stop"
             android:textColor="@color/black"
-            android:visibility="gone" />
+            android:visibility="gone"
+            android:enabled="false"
+            android:drawableTop="@drawable/baseline_pause_circle_24"/>
 
         <Button
             android:id="@+id/btnStop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#FFE153"
+            android:backgroundTint="#FFE153"
             android:text="Reset"
             android:textColor="@color/black"
-            android:visibility="gone" />
+            android:visibility="gone"
+            android:drawableTop="@drawable/baseline_refresh_24"/>
     </LinearLayout>
 
     <LinearLayout
